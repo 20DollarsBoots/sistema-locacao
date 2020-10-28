@@ -21,6 +21,12 @@ import {MatTableModule} from '@angular/material/table';
 import { CategoriaCadastroComponent } from './pages/categoria/categoria-cadastro/categoria-cadastro.component';
 import { CategoriaPesquisaComponent } from './pages/categoria/categoria-pesquisa/categoria-pesquisa.component';
 import { RecursoPesquisaComponent } from './pages/recurso/recurso-pesquisa/recurso-pesquisa.component';
+import { UsuarioCadastroComponent } from './pages/usuario/usuario-cadastro/usuario-cadastro.component';
+import { UsuarioPesquisaComponent } from './pages/usuario/usuario-pesquisa/usuario-pesquisa.component';
+import { DiaTrabalhoCadastroComponent } from './pages/diaTrabalho/dia-trabalho-cadastro/dia-trabalho-cadastro.component';
+import { DiaTrabalhoPesquisaComponent } from './pages/diaTrabalho/dia-trabalho-pesquisa/dia-trabalho-pesquisa.component';
+import { LocacaoCadastroComponent } from './pages/locacao/locacao-cadastro/locacao-cadastro.component';
+import { LocacaoPesquisaComponent } from './pages/locacao/locacao-pesquisa/locacao-pesquisa.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,9 +34,16 @@ import { RecursoPesquisaComponent } from './pages/recurso/recurso-pesquisa/recur
     HomeComponent,
     CategoriaCadastroComponent,
     CategoriaPesquisaComponent,
-    RecursoPesquisaComponent
+    RecursoPesquisaComponent,
+    UsuarioCadastroComponent,
+    UsuarioPesquisaComponent,
+    DiaTrabalhoCadastroComponent,
+    DiaTrabalhoPesquisaComponent,
+    LocacaoCadastroComponent,
+    LocacaoPesquisaComponent,  
   ],
   imports: [
+    MatSelectModule,
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
