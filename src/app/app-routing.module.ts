@@ -10,6 +10,7 @@ import { DiaTrabalhoCadastroComponent } from './pages/diaTrabalho/dia-trabalho-c
 import { DiaTrabalhoPesquisaComponent } from './pages/diaTrabalho/dia-trabalho-pesquisa/dia-trabalho-pesquisa.component';
 import { LocacaoCadastroComponent } from './pages/locacao/locacao-cadastro/locacao-cadastro.component';
 import { LocacaoPesquisaComponent } from './pages/locacao/locacao-pesquisa/locacao-pesquisa.component';
+import { RecursoPesquisaComponent } from './pages/recurso/recurso-pesquisa/recurso-pesquisa.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path:'recurso/cadastro',
     component:RecursoCadastroComponent
+  },
+  {
+    path:'recurso/pesquisa',
+    component:RecursoPesquisaComponent
   },
   {
     path:'categoria/cadastro',
